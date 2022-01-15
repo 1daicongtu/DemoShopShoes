@@ -128,7 +128,16 @@
                             </div>
                             <div class="column-right">
                                 <div class="column-right__slide">
-                                    <img class="column-right__slide-img" src="Image/main-banner-1-899x522.jpg" alt="">
+                                    <div class="galery-move">
+                                        <p class="btn galery-prev"><i class="fas fa-chevron-left"></i></p>
+                                        <p class="btn galery-next"><i class="fas fa-chevron-right"></i></p>
+                                    </div>
+                                    <div class="column-right__slide-list">
+                                        <!-- <div class="column-right__slide-image active">
+                                            <img class="column-right__slide-picture" src="Image/galery-2.jpg" alt="anh giay">
+                                        </div> -->
+                                        
+                                    </div>
                                 </div>
                                 <div class="column-right__service">
                                     <div class="column-right__service-item column-right__service-delivery">
@@ -356,15 +365,15 @@
                                     <div class="top-product__header">
                                         <h1 class="top-product__header-content">Top Product</h1>
                                         <div class="top-product__header-options">
-                                            <p id="top-product__header-options-latest" class="list-product__latest active">Latest</p>
-                                            <p id="top-product__header-options-bestseller"  class="">Bestseller</p>
-                                            <p id="top-product__header-options-special" class="">Special</p>
+                                            <p id="list__top-product__latest" class="top-product__header-options-latest active">Latest</p>
+                                            <p id="list__top-product__bestseller"  class="top-product__header-options-bestseller">Bestseller</p>
+                                            <p id="list__top-product__special" class="top-product__header-options-special">Special</p>
                                         </div>
                                     </div>
                                     <div class="top-product__body">
                                         <div class="row top-product__body__box list__top-product__latest">
                                             <div class="column-3">
-                                                <div class="top-product__lastest-item">
+                                                <div class="top-product__lastest-item father-item">
                                                     <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                     <div class="column-left__deal__product-rate product__rate-star">
                                                         <i class="fas fa-star star-one"></i>
@@ -440,7 +449,7 @@
                                                 </div>
                                             </div>
                                             <div class="column-3">
-                                                <div class="top-product__lastest-item">
+                                                <div class="top-product__lastest-item father-item">
                                                     <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                     <div class="column-left__deal__product-rate product__rate-star">
                                                         <i class="fas fa-star star-one"></i>
@@ -475,16 +484,18 @@
                                                     </div>
                                                     <div class="top-product__lastest-item-modal">
                                                         <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                             <div class="modal__body-img">
                                                                 <img src="Image/15-355x287.jpg" alt="">
+                                                              
                                                             </div>
                                                             <div class="modal__body-description">
                                                                 <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                <div class="column-left__deal__product-rate product__rate-star">
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                     <i class="fas fa-star star-one"></i>
                                                                     <i class="fas fa-star star-two"></i>
                                                                     <i class="fas fa-star star-three"></i>
-                                                                    <i class="far fa-star star-four"></i>
+                                                                    <i class="fas fa-star star-four"></i>
                                                                     <i class="far fa-star star-five"></i>
                                                                 </div>
                                                                 <div class="modal__body-description-info">
@@ -501,92 +512,12 @@
                                                                 </div>
                                                                 <div class="modal__body-description-price">
                                                                     <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                 </div>
-                                                                <div class="modal__body-description-price">
-                                                                    <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                </div>
+                                                                
                                                                 <div class="modal__body-description__options">
                                                                     <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                    <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div> 
-                                                </div>
-                                            </div>
-                                            <div class="column-3">
-                                                <div class="top-product__lastest-item">
-                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
-                                                    <div class="column-left__deal__product-rate product__rate-star">
-                                                        <i class="fas fa-star star-one"></i>
-                                                        <i class="fas fa-star star-two"></i>
-                                                        <i class="fas fa-star star-three"></i>
-                                                        <i class="far fa-star star-four"></i>
-                                                        <i class="far fa-star star-five"></i>
-                                                    </div>
-                                                    <div class="top-product__options">
-                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
-                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
-                                                        </span>
-                                                       
-                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
-                                                            <p class="top-product__options-item-pesudo">Quick View</p>
-                                                        </span>
-                                                        
-                                                        
-                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
-                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
-                                                        </span>
-                                                    
-                                                    </div>
-                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
-                                                    <div class="deal__product-price product__price">
-                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
-                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
-                                                    </div>
-                                                    <div class="top-product-sales">
-                                                        <p class="slides-sales">Sale</p>
-                                                        <p class="sales-values">4% Off</p>
-                                                    </div>
-                                                    <div class="top-product__lastest-item-modal">
-                                                        <div class="modal__body">
-                                                            <div class="modal__body-img">
-                                                                <img src="Image/15-355x287.jpg" alt="">
-                                                            </div>
-                                                            <div class="modal__body-description">
-                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                <div class="column-left__deal__product-rate product__rate-star">
-                                                                    <i class="fas fa-star star-one"></i>
-                                                                    <i class="fas fa-star star-two"></i>
-                                                                    <i class="fas fa-star star-three"></i>
-                                                                    <i class="far fa-star star-four"></i>
-                                                                    <i class="far fa-star star-five"></i>
-                                                                </div>
-                                                                <div class="modal__body-description-info">
-                                                                    <div class="modal-description__brand">
-                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
-                                                                       
-                                                                    </div>
-                                                                    <div class="modal-description__code">
-                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
-                                                                    </div>
-                                                                    <div class="modal-description__Availability">
-                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="modal__body-description-price">
-                                                                    <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                </div>
-                                                                <div class="modal__body-description-price">
-                                                                    <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                </div>
-                                                                <div class="modal__body-description__options">
-                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                    <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -594,7 +525,7 @@
                                                 </div>
                                             </div>
                                             <div class="column-3">
-                                                <div class="top-product__lastest-item">
+                                                <div class="top-product__lastest-item father-item">
                                                     <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                     <div class="column-left__deal__product-rate product__rate-star">
                                                         <i class="fas fa-star star-one"></i>
@@ -629,16 +560,18 @@
                                                     </div>
                                                     <div class="top-product__lastest-item-modal">
                                                         <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                             <div class="modal__body-img">
                                                                 <img src="Image/15-355x287.jpg" alt="">
+                                                              
                                                             </div>
                                                             <div class="modal__body-description">
                                                                 <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                <div class="column-left__deal__product-rate product__rate-star">
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                     <i class="fas fa-star star-one"></i>
                                                                     <i class="fas fa-star star-two"></i>
                                                                     <i class="fas fa-star star-three"></i>
-                                                                    <i class="far fa-star star-four"></i>
+                                                                    <i class="fas fa-star star-four"></i>
                                                                     <i class="far fa-star star-five"></i>
                                                                 </div>
                                                                 <div class="modal__body-description-info">
@@ -655,23 +588,20 @@
                                                                 </div>
                                                                 <div class="modal__body-description-price">
                                                                     <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                 </div>
-                                                                <div class="modal__body-description-price">
-                                                                    <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                </div>
+                                                                
                                                                 <div class="modal__body-description__options">
                                                                     <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                    <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div> 
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="column-3">
-                                                <div class="top-product__lastest-item">
+                                                <div class="top-product__lastest-item father-item">
                                                     <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                     <div class="column-left__deal__product-rate product__rate-star">
                                                         <i class="fas fa-star star-one"></i>
@@ -706,16 +636,18 @@
                                                     </div>
                                                     <div class="top-product__lastest-item-modal">
                                                         <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                             <div class="modal__body-img">
                                                                 <img src="Image/15-355x287.jpg" alt="">
+                                                              
                                                             </div>
                                                             <div class="modal__body-description">
                                                                 <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                <div class="column-left__deal__product-rate product__rate-star">
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                     <i class="fas fa-star star-one"></i>
                                                                     <i class="fas fa-star star-two"></i>
                                                                     <i class="fas fa-star star-three"></i>
-                                                                    <i class="far fa-star star-four"></i>
+                                                                    <i class="fas fa-star star-four"></i>
                                                                     <i class="far fa-star star-five"></i>
                                                                 </div>
                                                                 <div class="modal__body-description-info">
@@ -732,23 +664,20 @@
                                                                 </div>
                                                                 <div class="modal__body-description-price">
                                                                     <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                 </div>
-                                                                <div class="modal__body-description-price">
-                                                                    <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                </div>
+                                                                
                                                                 <div class="modal__body-description__options">
                                                                     <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                    <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div> 
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="column-3">
-                                                <div class="top-product__lastest-item">
+                                                <div class="top-product__lastest-item father-item">
                                                     <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                     <div class="column-left__deal__product-rate product__rate-star">
                                                         <i class="fas fa-star star-one"></i>
@@ -783,16 +712,18 @@
                                                     </div>
                                                     <div class="top-product__lastest-item-modal">
                                                         <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                             <div class="modal__body-img">
                                                                 <img src="Image/15-355x287.jpg" alt="">
+                                                              
                                                             </div>
                                                             <div class="modal__body-description">
                                                                 <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                <div class="column-left__deal__product-rate product__rate-star">
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                     <i class="fas fa-star star-one"></i>
                                                                     <i class="fas fa-star star-two"></i>
                                                                     <i class="fas fa-star star-three"></i>
-                                                                    <i class="far fa-star star-four"></i>
+                                                                    <i class="fas fa-star star-four"></i>
                                                                     <i class="far fa-star star-five"></i>
                                                                 </div>
                                                                 <div class="modal__body-description-info">
@@ -809,19 +740,1008 @@
                                                                 </div>
                                                                 <div class="modal__body-description-price">
                                                                     <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                 </div>
-                                                                <div class="modal__body-description-price">
-                                                                    <p class="modal__body-description__price-new">$140.00</p>
-                                                                    <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                </div>
+                                                                
                                                                 <div class="modal__body-description__options">
                                                                     <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                    <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">4% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$140.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row top-product__body__box list__top-product__bestseller">
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/11-241x195.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">6% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$110.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">6% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$110.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">6% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$110.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">6% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$110.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">6% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$110.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$78.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">6% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$110.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row top-product__body__box list__top-product__special">
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/10-241x195.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$60.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">10% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$100.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$60.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">10% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$100.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$60.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">10% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$100.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$60.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">10% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$100.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$60.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">10% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$100.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column-3">
+                                                <div class="top-product__lastest-item father-item">
+                                                    <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                        <i class="fas fa-star star-one"></i>
+                                                        <i class="fas fa-star star-two"></i>
+                                                        <i class="fas fa-star star-three"></i>
+                                                        <i class="far fa-star star-four"></i>
+                                                        <i class="far fa-star star-five"></i>
+                                                    </div>
+                                                    <div class="top-product__options">
+                                                        <span class="top-product__options-item top-product__options-favorite"><i class="far fa-heart"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Wish List</p>
+                                                        </span>
+                                                       
+                                                        <span class="top-product__options-item top-product__options-quickview"><i class="far fa-eye"></i>
+                                                            <p class="top-product__options-item-pesudo">Quick View</p>
+                                                        </span>
+                                                        
+                                                        
+                                                        <span class="top-product__options-item top-product__options-addToCart"><i class="fas fa-cart-arrow-down"></i>
+                                                            <p class="top-product__options-item-pesudo">Add to Cart</p>
+                                                        </span>
+                                                    
+                                                    </div>
+                                                    <p class="deal__product-name product__name">Nostrud Exercitation</p>
+                                                    <div class="deal__product-price product__price">
+                                                        <p class="deal__product-price-new product__new-price">$60.80</p>
+                                                        <p class="deal__product-price-old product__old-price">$83.60</p>
+                                                    </div>
+                                                    <div class="top-product-sales">
+                                                        <p class="slides-sales">Sale</p>
+                                                        <p class="sales-values">10% Off</p>
+                                                    </div>
+                                                    <div class="top-product__lastest-item-modal">
+                                                        <div class="modal__body">
+                                                            <span class="modal__body-close"><i class="fas fa-times"></i></span>
+                                                            <div class="modal__body-img">
+                                                                <img src="Image/15-355x287.jpg" alt="">
+                                                              
+                                                            </div>
+                                                            <div class="modal__body-description">
+                                                                <p class="modal__body-description-name">Voluptates Repudiandae</p>
+                                                                <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
+                                                                    <i class="fas fa-star star-one"></i>
+                                                                    <i class="fas fa-star star-two"></i>
+                                                                    <i class="fas fa-star star-three"></i>
+                                                                    <i class="fas fa-star star-four"></i>
+                                                                    <i class="far fa-star star-five"></i>
+                                                                </div>
+                                                                <div class="modal__body-description-info">
+                                                                    <div class="modal-description__brand">
+                                                                        <p class="modal-description__info-name">Brand: <span class="modal-description__info-content">Apple</span></p>
+                                                                       
+                                                                    </div>
+                                                                    <div class="modal-description__code">
+                                                                        <p class="modal-description__info-name">Product Code: <span class="modal-description__info-content">product 20</span></p>
+                                                                    </div>
+                                                                    <div class="modal-description__Availability">
+                                                                        <p class="modal-description__info-name">Availability: <span class="modal-description__info-content">In Stock</span></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal__body-description-price">
+                                                                    <p class="modal__body-description__price-new">$100.00</p>
+                                                                    <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                </div>
+                                                                
+                                                                <div class="modal__body-description__options">
+                                                                    <button class="btn modal__options__favorite-add">Add To Cart</button>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -846,19 +1766,19 @@
                                         <div class="column-left__what-say__body-comment">
                                             <img class="column-left__what-say__body-comment-img" src="Image/fred_manchester_united_1581336443_31483.jpg" alt="">
                                             <p class="what-say__body-comment-name">Đại Đế Fred</p>
-                                            <p class="what-say__body-comment-description">Giày của Shop chỉ có 3 từ  để miêu tả: "Hết nước chấm"</p>
+                                            <p class="what-say__body-comment-description">Giày mà Shop bán ra chỉ có 3 từ  để miêu tả: "Hết nước chấm mà thôi!"</p>
                                     
                                         </div>
                                         <div class="column-left__what-say__body-comment">
                                             <img class="column-left__what-say__body-comment-img" src="Image/01frfj04mpr4wey4hz61-2032.jpg" alt="">
                                             <p class="what-say__body-comment-name">Marguine</p>
-                                            <p class="what-say__body-comment-description">Giày của Shop chỉ có 3 từ  để miêu tả: "Hết nước chấm"</p>
+                                            <p class="what-say__body-comment-description">Đôi giày của Shop thật sự rất tốt, giúp tôi kèm đồng đội của mình tốt hơn</p>
                                     
                                         </div>
                                         <div class="column-left__what-say__body-comment">
                                             <img class="column-left__what-say__body-comment-img" src="Image/luke-shaw-can-duoc-nghi-ngoi.jpg" alt="">
                                             <p class="what-say__body-comment-name">Luke Shaw</p>
-                                            <p class="what-say__body-comment-description">Giày của Shop chỉ có 3 từ  để miêu tả: "Hết nước chấm"</p>
+                                            <p class="what-say__body-comment-description">Anh Marguine kêu phải mua giày ở shop nếu không sẽ diễn hài tại Old Trafford tiếp!</p>
                                     
                                         </div>
                                     </div>
@@ -892,8 +1812,8 @@
                                     <div class="featured-Products__body">
                                         <div class="featured-Products__body-row row">
                                             <div class="featured-Products__body-column column-3">
-                                                <div class="featured-Products__body-item">
-                                                        <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                <div class="featured-Products__body-item father-item">
+                                                        <img class="column-left__deal-product-img product__image" src="Image/10-241x195.jpg" alt="">
                                                         <div class="column-left__deal__product-rate product__rate-star">
                                                             <i class="fas fa-star star-one"></i>
                                                             <i class="fas fa-star star-two"></i>
@@ -927,16 +1847,18 @@
                                                         </div>
                                                         <div class="top-product__lastest-item-modal">
                                                             <div class="modal__body">
+                                                                <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                                 <div class="modal__body-img">
-                                                                    <img src="Image/15-355x287.jpg" alt="">
+                                                                    <img src="Image/10-241x195.jpg" alt="">
+                                                                  
                                                                 </div>
                                                                 <div class="modal__body-description">
                                                                     <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                                    <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                         <i class="fas fa-star star-one"></i>
                                                                         <i class="fas fa-star star-two"></i>
                                                                         <i class="fas fa-star star-three"></i>
-                                                                        <i class="far fa-star star-four"></i>
+                                                                        <i class="fas fa-star star-four"></i>
                                                                         <i class="far fa-star star-five"></i>
                                                                     </div>
                                                                     <div class="modal__body-description-info">
@@ -953,15 +1875,12 @@
                                                                     </div>
                                                                     <div class="modal__body-description-price">
                                                                         <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                        <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                     </div>
-                                                                    <div class="modal__body-description-price">
-                                                                        <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                    </div>
+                                                                    
                                                                     <div class="modal__body-description__options">
                                                                         <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                        <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                    
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -970,7 +1889,7 @@
                                                 </div>
                                             </div>
                                             <div class="featured-Products__body-column column-3">
-                                                <div class="featured-Products__body-item">
+                                                <div class="featured-Products__body-item father-item">
                                                         <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                         <div class="column-left__deal__product-rate product__rate-star">
                                                             <i class="fas fa-star star-one"></i>
@@ -1005,16 +1924,18 @@
                                                         </div>
                                                         <div class="top-product__lastest-item-modal">
                                                             <div class="modal__body">
+                                                                <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                                 <div class="modal__body-img">
                                                                     <img src="Image/15-355x287.jpg" alt="">
+                                                                  
                                                                 </div>
                                                                 <div class="modal__body-description">
                                                                     <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                                    <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                         <i class="fas fa-star star-one"></i>
                                                                         <i class="fas fa-star star-two"></i>
                                                                         <i class="fas fa-star star-three"></i>
-                                                                        <i class="far fa-star star-four"></i>
+                                                                        <i class="fas fa-star star-four"></i>
                                                                         <i class="far fa-star star-five"></i>
                                                                     </div>
                                                                     <div class="modal__body-description-info">
@@ -1031,15 +1952,12 @@
                                                                     </div>
                                                                     <div class="modal__body-description-price">
                                                                         <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                        <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                     </div>
-                                                                    <div class="modal__body-description-price">
-                                                                        <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                    </div>
+                                                                    
                                                                     <div class="modal__body-description__options">
                                                                         <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                        <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                    
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1048,7 +1966,7 @@
                                                 </div>
                                             </div>
                                             <div class="featured-Products__body-column column-3">
-                                                <div class="featured-Products__body-item">
+                                                <div class="featured-Products__body-item father-item">
                                                         <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                         <div class="column-left__deal__product-rate product__rate-star">
                                                             <i class="fas fa-star star-one"></i>
@@ -1083,16 +2001,18 @@
                                                         </div>
                                                         <div class="top-product__lastest-item-modal">
                                                             <div class="modal__body">
+                                                                <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                                 <div class="modal__body-img">
                                                                     <img src="Image/15-355x287.jpg" alt="">
+                                                                  
                                                                 </div>
                                                                 <div class="modal__body-description">
                                                                     <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                                    <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                         <i class="fas fa-star star-one"></i>
                                                                         <i class="fas fa-star star-two"></i>
                                                                         <i class="fas fa-star star-three"></i>
-                                                                        <i class="far fa-star star-four"></i>
+                                                                        <i class="fas fa-star star-four"></i>
                                                                         <i class="far fa-star star-five"></i>
                                                                     </div>
                                                                     <div class="modal__body-description-info">
@@ -1109,15 +2029,12 @@
                                                                     </div>
                                                                     <div class="modal__body-description-price">
                                                                         <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                        <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                     </div>
-                                                                    <div class="modal__body-description-price">
-                                                                        <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                    </div>
+                                                                    
                                                                     <div class="modal__body-description__options">
                                                                         <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                        <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                    
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1126,8 +2043,8 @@
                                                 </div>
                                             </div>
                                             <div class="featured-Products__body-column column-3">
-                                                <div class="featured-Products__body-item">
-                                                        <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
+                                                <div class="featured-Products__body-item father-item">
+                                                        <img class="column-left__deal-product-img product__image" src="Image/11-241x195.jpg" alt="">
                                                         <div class="column-left__deal__product-rate product__rate-star">
                                                             <i class="fas fa-star star-one"></i>
                                                             <i class="fas fa-star star-two"></i>
@@ -1161,16 +2078,18 @@
                                                         </div>
                                                         <div class="top-product__lastest-item-modal">
                                                             <div class="modal__body">
+                                                                <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                                 <div class="modal__body-img">
-                                                                    <img src="Image/15-355x287.jpg" alt="">
+                                                                    <img src="Image/11-241x195.jpg" alt="">
+                                                                  
                                                                 </div>
                                                                 <div class="modal__body-description">
                                                                     <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                                    <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                         <i class="fas fa-star star-one"></i>
                                                                         <i class="fas fa-star star-two"></i>
                                                                         <i class="fas fa-star star-three"></i>
-                                                                        <i class="far fa-star star-four"></i>
+                                                                        <i class="fas fa-star star-four"></i>
                                                                         <i class="far fa-star star-five"></i>
                                                                     </div>
                                                                     <div class="modal__body-description-info">
@@ -1187,15 +2106,12 @@
                                                                     </div>
                                                                     <div class="modal__body-description-price">
                                                                         <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                        <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                     </div>
-                                                                    <div class="modal__body-description-price">
-                                                                        <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                    </div>
+                                                                    
                                                                     <div class="modal__body-description__options">
                                                                         <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                        <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                    
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1204,7 +2120,7 @@
                                                 </div>
                                             </div>
                                             <div class="featured-Products__body-column column-3">
-                                                <div class="featured-Products__body-item">
+                                                <div class="featured-Products__body-item father-item">
                                                         <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                         <div class="column-left__deal__product-rate product__rate-star">
                                                             <i class="fas fa-star star-one"></i>
@@ -1239,16 +2155,18 @@
                                                         </div>
                                                         <div class="top-product__lastest-item-modal">
                                                             <div class="modal__body">
+                                                                <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                                 <div class="modal__body-img">
                                                                     <img src="Image/15-355x287.jpg" alt="">
+                                                                  
                                                                 </div>
                                                                 <div class="modal__body-description">
                                                                     <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                                    <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                         <i class="fas fa-star star-one"></i>
                                                                         <i class="fas fa-star star-two"></i>
                                                                         <i class="fas fa-star star-three"></i>
-                                                                        <i class="far fa-star star-four"></i>
+                                                                        <i class="fas fa-star star-four"></i>
                                                                         <i class="far fa-star star-five"></i>
                                                                     </div>
                                                                     <div class="modal__body-description-info">
@@ -1265,15 +2183,12 @@
                                                                     </div>
                                                                     <div class="modal__body-description-price">
                                                                         <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                        <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                     </div>
-                                                                    <div class="modal__body-description-price">
-                                                                        <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                    </div>
+                                                                    
                                                                     <div class="modal__body-description__options">
                                                                         <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                        <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                    
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1282,7 +2197,7 @@
                                                 </div>
                                             </div>
                                             <div class="featured-Products__body-column column-3">
-                                                <div class="featured-Products__body-item">
+                                                <div class="featured-Products__body-item father-item">
                                                         <img class="column-left__deal-product-img product__image" src="Image/15-355x287.jpg" alt="">
                                                         <div class="column-left__deal__product-rate product__rate-star">
                                                             <i class="fas fa-star star-one"></i>
@@ -1317,16 +2232,18 @@
                                                         </div>
                                                         <div class="top-product__lastest-item-modal">
                                                             <div class="modal__body">
+                                                                <span class="modal__body-close"><i class="fas fa-times"></i></span>
                                                                 <div class="modal__body-img">
                                                                     <img src="Image/15-355x287.jpg" alt="">
+                                                                  
                                                                 </div>
                                                                 <div class="modal__body-description">
                                                                     <p class="modal__body-description-name">Voluptates Repudiandae</p>
-                                                                    <div class="column-left__deal__product-rate product__rate-star">
+                                                                    <div class="modal__body__rate-star column-left__deal__product-rate product__rate-star">
                                                                         <i class="fas fa-star star-one"></i>
                                                                         <i class="fas fa-star star-two"></i>
                                                                         <i class="fas fa-star star-three"></i>
-                                                                        <i class="far fa-star star-four"></i>
+                                                                        <i class="fas fa-star star-four"></i>
                                                                         <i class="far fa-star star-five"></i>
                                                                     </div>
                                                                     <div class="modal__body-description-info">
@@ -1343,15 +2260,12 @@
                                                                     </div>
                                                                     <div class="modal__body-description-price">
                                                                         <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
+                                                                        <p class="modal__body-description__price-old-name">Ex Tax: <p class="modal__body-description__price-old">$115.00</p></p>
                                                                     </div>
-                                                                    <div class="modal__body-description-price">
-                                                                        <p class="modal__body-description__price-new">$140.00</p>
-                                                                        <p class="modal__body-description__price-old-name">Ex Tax <p class="modal__body-description__price-old">$115.00</p></p>
-                                                                    </div>
+                                                                    
                                                                     <div class="modal__body-description__options">
                                                                         <button class="btn modal__options__favorite-add">Add To Cart</button>
-                                                                        <span class="modal__options-favorite"><i class="far fa-heart"></i></span>
+                                                                    
                                                                     </div>
                                                                 </div>
                                                             </div>
